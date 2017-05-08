@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3C308461EAEFEED004B1D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C308451EAEFEED004B1D08 /* main.m */; };
+		B3C308491EAEFEED004B1D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C308481EAEFEED004B1D08 /* AppDelegate.m */; };
+		B3C3084C1EAEFEED004B1D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C3084B1EAEFEED004B1D08 /* ViewController.m */; };
+		B3C308511EAEFEED004B1D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C308501EAEFEED004B1D08 /* Assets.xcassets */; };
+		B3C308541EAEFEED004B1D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C308521EAEFEED004B1D08 /* LaunchScreen.storyboard */; };
+		B3C3085E1EAEFF41004B1D08 /* SunVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C3085D1EAEFF41004B1D08 /* SunVideoPlayerView.m */; };
+		B3C308611EAEFF51004B1D08 /* SunVideoControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C308601EAEFF51004B1D08 /* SunVideoControlView.m */; };
+		B3C308671EAEFF99004B1D08 /* SunVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C308661EAEFF99004B1D08 /* SunVideoViewController.m */; };
+		B3C3086C1EAF2B48004B1D08 /* SunSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C3086B1EAF2B48004B1D08 /* SunSliderView.m */; };
+		B3C309441EC04255004B1D08 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C309401EC04255004B1D08 /* play.png */; };
+		B3C309451EC04255004B1D08 /* smallScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C309411EC04255004B1D08 /* smallScreen.png */; };
+		B3C309461EC04255004B1D08 /* fullScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C309421EC04255004B1D08 /* fullScreen.png */; };
+		B3C309471EC04255004B1D08 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C309431EC04255004B1D08 /* pause.png */; };
+		F9355CE15F5A5AF7703588F8 /* libPods-SunVideoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E46F00730AA0849D849EC9B /* libPods-SunVideoPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E46F00730AA0849D849EC9B /* libPods-SunVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunVideoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4F343DCAD5109CA86CF903 /* Pods-SunVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunVideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunVideoPlayer/Pods-SunVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		B3C308411EAEFEED004B1D08 /* SunVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C308451EAEFEED004B1D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3C308471EAEFEED004B1D08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3C308481EAEFEED004B1D08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3C3084A1EAEFEED004B1D08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3C3084B1EAEFEED004B1D08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3C308501EAEFEED004B1D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3C308531EAEFEED004B1D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3C308551EAEFEED004B1D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C3085C1EAEFF41004B1D08 /* SunVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunVideoPlayerView.h; sourceTree = "<group>"; };
+		B3C3085D1EAEFF41004B1D08 /* SunVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunVideoPlayerView.m; sourceTree = "<group>"; };
+		B3C3085F1EAEFF51004B1D08 /* SunVideoControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunVideoControlView.h; sourceTree = "<group>"; };
+		B3C308601EAEFF51004B1D08 /* SunVideoControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunVideoControlView.m; sourceTree = "<group>"; };
+		B3C308651EAEFF99004B1D08 /* SunVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunVideoViewController.h; sourceTree = "<group>"; };
+		B3C308661EAEFF99004B1D08 /* SunVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunVideoViewController.m; sourceTree = "<group>"; };
+		B3C308691EAF195F004B1D08 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B3C3086A1EAF2B48004B1D08 /* SunSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunSliderView.h; sourceTree = "<group>"; };
+		B3C3086B1EAF2B48004B1D08 /* SunSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunSliderView.m; sourceTree = "<group>"; };
+		B3C309401EC04255004B1D08 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		B3C309411EC04255004B1D08 /* smallScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallScreen.png; sourceTree = "<group>"; };
+		B3C309421EC04255004B1D08 /* fullScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullScreen.png; sourceTree = "<group>"; };
+		B3C309431EC04255004B1D08 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		DD352BC6461BCC4B11A78739 /* Pods-SunVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunVideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunVideoPlayer/Pods-SunVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C3083E1EAEFEED004B1D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9355CE15F5A5AF7703588F8 /* libPods-SunVideoPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4327717CCAF2EB9375DAF139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD352BC6461BCC4B11A78739 /* Pods-SunVideoPlayer.debug.xcconfig */,
+				AF4F343DCAD5109CA86CF903 /* Pods-SunVideoPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C190232C4AA9242F97FA5B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E46F00730AA0849D849EC9B /* libPods-SunVideoPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C308381EAEFEED004B1D08 = {
+			isa = PBXGroup;
+			children = (
+				B3C308431EAEFEED004B1D08 /* SunVideoPlayer */,
+				B3C308421EAEFEED004B1D08 /* Products */,
+				4327717CCAF2EB9375DAF139 /* Pods */,
+				8C190232C4AA9242F97FA5B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C308421EAEFEED004B1D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C308411EAEFEED004B1D08 /* SunVideoPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C308431EAEFEED004B1D08 /* SunVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3085B1EAEFF1A004B1D08 /* SunVideoPlayer */,
+				B3C308471EAEFEED004B1D08 /* AppDelegate.h */,
+				B3C308481EAEFEED004B1D08 /* AppDelegate.m */,
+				B3C3084A1EAEFEED004B1D08 /* ViewController.h */,
+				B3C3084B1EAEFEED004B1D08 /* ViewController.m */,
+				B3C308501EAEFEED004B1D08 /* Assets.xcassets */,
+				B3C308521EAEFEED004B1D08 /* LaunchScreen.storyboard */,
+				B3C308551EAEFEED004B1D08 /* Info.plist */,
+				B3C308441EAEFEED004B1D08 /* Supporting Files */,
+			);
+			path = SunVideoPlayer;
+			sourceTree = "<group>";
+		};
+		B3C308441EAEFEED004B1D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C308451EAEFEED004B1D08 /* main.m */,
+				B3C308691EAF195F004B1D08 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3C3085B1EAEFF1A004B1D08 /* SunVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B3C308681EAEFFB2004B1D08 /* Images */,
+				B3C3085C1EAEFF41004B1D08 /* SunVideoPlayerView.h */,
+				B3C3085D1EAEFF41004B1D08 /* SunVideoPlayerView.m */,
+				B3C3085F1EAEFF51004B1D08 /* SunVideoControlView.h */,
+				B3C308601EAEFF51004B1D08 /* SunVideoControlView.m */,
+				B3C3086A1EAF2B48004B1D08 /* SunSliderView.h */,
+				B3C3086B1EAF2B48004B1D08 /* SunSliderView.m */,
+				B3C308651EAEFF99004B1D08 /* SunVideoViewController.h */,
+				B3C308661EAEFF99004B1D08 /* SunVideoViewController.m */,
+			);
+			path = SunVideoPlayer;
+			sourceTree = "<group>";
+		};
+		B3C308681EAEFFB2004B1D08 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B3C309401EC04255004B1D08 /* play.png */,
+				B3C309411EC04255004B1D08 /* smallScreen.png */,
+				B3C309421EC04255004B1D08 /* fullScreen.png */,
+				B3C309431EC04255004B1D08 /* pause.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C308401EAEFEED004B1D08 /* SunVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C308581EAEFEED004B1D08 /* Build configuration list for PBXNativeTarget "SunVideoPlayer" */;
+			buildPhases = (
+				07D6AD30E1F1B1CAF78B64DB /* [CP] Check Pods Manifest.lock */,
+				B3C3083D1EAEFEED004B1D08 /* Sources */,
+				B3C3083E1EAEFEED004B1D08 /* Frameworks */,
+				B3C3083F1EAEFEED004B1D08 /* Resources */,
+				84A79F75E12954CED91EA411 /* [CP] Embed Pods Frameworks */,
+				9FF7133F837568124B39AAF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunVideoPlayer;
+			productName = SunVideoPlayer;
+			productReference = B3C308411EAEFEED004B1D08 /* SunVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C308391EAEFEED004B1D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sunxiangxiang;
+				TargetAttributes = {
+					B3C308401EAEFEED004B1D08 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6UZ64DUPRX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B3C3083C1EAEFEED004B1D08 /* Build configuration list for PBXProject "SunVideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3C308381EAEFEED004B1D08;
+			productRefGroup = B3C308421EAEFEED004B1D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C308401EAEFEED004B1D08 /* SunVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C3083F1EAEFEED004B1D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C308541EAEFEED004B1D08 /* LaunchScreen.storyboard in Resources */,
+				B3C309441EC04255004B1D08 /* play.png in Resources */,
+				B3C309471EC04255004B1D08 /* pause.png in Resources */,
+				B3C309461EC04255004B1D08 /* fullScreen.png in Resources */,
+				B3C309451EC04255004B1D08 /* smallScreen.png in Resources */,
+				B3C308511EAEFEED004B1D08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D6AD30E1F1B1CAF78B64DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84A79F75E12954CED91EA411 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunVideoPlayer/Pods-SunVideoPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF7133F837568124B39AAF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunVideoPlayer/Pods-SunVideoPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C3083D1EAEFEED004B1D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C3086C1EAF2B48004B1D08 /* SunSliderView.m in Sources */,
+				B3C3085E1EAEFF41004B1D08 /* SunVideoPlayerView.m in Sources */,
+				B3C308671EAEFF99004B1D08 /* SunVideoViewController.m in Sources */,
+				B3C3084C1EAEFEED004B1D08 /* ViewController.m in Sources */,
+				B3C308611EAEFF51004B1D08 /* SunVideoControlView.m in Sources */,
+				B3C308491EAEFEED004B1D08 /* AppDelegate.m in Sources */,
+				B3C308461EAEFEED004B1D08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3C308521EAEFEED004B1D08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C308531EAEFEED004B1D08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3C308561EAEFEED004B1D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3C308571EAEFEED004B1D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C308591EAEFEED004B1D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD352BC6461BCC4B11A78739 /* Pods-SunVideoPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6UZ64DUPRX;
+				GCC_PREFIX_HEADER = SunVideoPlayer/PrefixHeader.pch;
+				INFOPLIST_FILE = SunVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.SunVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		B3C3085A1EAEFEED004B1D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4F343DCAD5109CA86CF903 /* Pods-SunVideoPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6UZ64DUPRX;
+				GCC_PREFIX_HEADER = SunVideoPlayer/PrefixHeader.pch;
+				INFOPLIST_FILE = SunVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.SunVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C3083C1EAEFEED004B1D08 /* Build configuration list for PBXProject "SunVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C308561EAEFEED004B1D08 /* Debug */,
+				B3C308571EAEFEED004B1D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C308581EAEFEED004B1D08 /* Build configuration list for PBXNativeTarget "SunVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C308591EAEFEED004B1D08 /* Debug */,
+				B3C3085A1EAEFEED004B1D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3C308391EAEFEED004B1D08 /* Project object */;
+}

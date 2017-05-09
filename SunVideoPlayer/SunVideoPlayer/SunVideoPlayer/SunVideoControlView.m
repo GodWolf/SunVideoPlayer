@@ -23,6 +23,7 @@
 @property (nonatomic,strong) UIButton *fullScreenBtn;
 @property (nonatomic,strong) UIButton *playPauseBtn;
 @property (nonatomic,strong) UIButton *speedBtn;
+@property (nonatomic,strong) UIButton *backBtn;
 
 @property (nonatomic,strong) NSTimer *timer;
 
@@ -35,6 +36,7 @@
     if (self) {
         self.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.3];
         [self addSubview:self.titleLabel];
+        [self addSubview:self.backBtn];
         [self addSubview:self.playPauseBtn];
         [self addSubview:self.bottomView];
         [self.bottomView addSubview:self.currentLabel];
@@ -69,6 +71,7 @@
 - (void)showHiddenView {
     
     self.titleLabel.hidden = !self.titleLabel.hidden;
+    self.backBtn.hidden = !self.backBtn.hidden;
     self.playPauseBtn.hidden = !self.playPauseBtn.hidden;
     self.bottomView.hidden = !self.bottomView.hidden;
 }
@@ -82,6 +85,11 @@
         make.left.equalTo(weakself.mas_left);
         make.right.equalTo(weakself.mas_right);
         make.height.mas_equalTo(17);
+    }];
+    [self.backBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(weakself).offset(20);
+        make.top.equalTo(weakself).offset(20);
+        make.size.mas_equalTo(CGSizeMake(50, 30));
     }];
     [self.playPauseBtn mas_makeConstraints:^(MASConstraintMaker *make) {
        
@@ -129,6 +137,17 @@
         make.right.equalTo(weakself.bottomView);
         make.size.mas_equalTo(CGSizeMake(30, 30));
     }];
+}
+
+- (void)backAction {
+    
+    [[self viewController] dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+}
+
+- (void)reset {
+    self.speedBtn.selected = NO;
 }
 
 #pragma mark - 开始暂停
@@ -334,6 +353,16 @@
     return _speedBtn;
 }
 
+- (UIButton *)backBtn {
+    
+    if(_backBtn == nil){
+        _backBtn = [[UIButton alloc] initWithFrame:CGRectZero];
+        [_backBtn setTitle:@"返回" forState:(UIControlStateNormal)];
+        [_backBtn addTarget:self action:@selector(backAction) forControlEvents:(UIControlEventTouchUpInside)];
+        _backBtn.hidden = YES;
+    }
+    return _backBtn;
+}
 
 
 @end

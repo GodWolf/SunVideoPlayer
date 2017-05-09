@@ -96,6 +96,7 @@ static NSString *PlayStatus = @"play status";
             self.bounds = CGRectMake(0, 0, videoSize.width, videoSize.height);
             
             _controlView.delegate = self;
+            [_controlView reset];
             __weak typeof(self) weakself = self;
             
             //监听播放时间

@@ -24,5 +24,6 @@
 @property (nonatomic,copy) NSString *title;
 @property (nonatomic,assign) BOOL isDrag;
 @property (nonatomic,weak) id<SunVideoControlProtocol> delegate;
+- (void)reset;
 
 @end

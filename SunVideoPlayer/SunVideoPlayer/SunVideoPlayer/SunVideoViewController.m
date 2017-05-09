@@ -11,6 +11,7 @@
 @interface SunVideoViewController ()
 
 @property (nonatomic,weak) SunVideoPlayerView *playerView;
+@property (nonatomic,strong) UIButton *backBtn;
 
 @end
 
@@ -33,23 +34,13 @@
     
     [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationLandscapeRight animated:YES];
     
-
-//    [UIView animateWithDuration:0.35 animations:^{
-//        
-//        self.view.transform = CGAffineTransformMakeRotation(M_PI_2);
-//    } completion:^(BOOL finished) {
-//    }];
-    
-    
-    
-    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     
     [super viewWillAppear:animated];
     if(_urlStr){
-        [_playerView playVideoWithUrl:[NSURL URLWithString:_urlStr]];
+        [_playerView playVideoWithUrl:[NSURL fileURLWithPath:_urlStr]];
     }
 }
 
@@ -77,6 +68,7 @@
 - (BOOL)prefersStatusBarHidden {
     return NO;
 }
+
 
 
 @end

@@ -43,10 +43,10 @@
     _currentRootPath = _docPath;
     NSArray *subPaths = [[NSFileManager defaultManager] subpathsOfDirectoryAtPath:_currentRootPath error:nil];
     _files = [NSMutableArray arrayWithArray:subPaths];
-    if([_currentRootPath isEqualToString:_docPath] == NO){
-        
-        [_files insertObject:@"..." atIndex:0];
-    }
+    [_files sortUsingComparator:^NSComparisonResult(NSString  *obj1, NSString  *obj2) {
+
+        return NSOrderedAscending;
+    }];
     [self.tableView reloadData];
     
     
@@ -120,6 +120,10 @@
     }
     NSArray *subPaths = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:_currentRootPath error:nil];
     _files = [NSMutableArray arrayWithArray:subPaths];
+    [_files sortUsingComparator:^NSComparisonResult(NSString  *obj1, NSString  *obj2) {
+        
+        return NSOrderedAscending;
+    }];
     if([_currentRootPath isEqualToString:_docPath] == NO){
         
         [_files insertObject:@"..." atIndex:0];

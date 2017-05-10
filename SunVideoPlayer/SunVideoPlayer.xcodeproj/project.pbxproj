@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3893ABA1EC2F1FF00BEA315 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3893AB91EC2F1FF00BEA315 /* libstdc++.tbd */; };
 		B3C308461EAEFEED004B1D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C308451EAEFEED004B1D08 /* main.m */; };
 		B3C308491EAEFEED004B1D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C308481EAEFEED004B1D08 /* AppDelegate.m */; };
 		B3C3084C1EAEFEED004B1D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C3084B1EAEFEED004B1D08 /* ViewController.m */; };
@@ -20,12 +21,31 @@
 		B3C309451EC04255004B1D08 /* smallScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C309411EC04255004B1D08 /* smallScreen.png */; };
 		B3C309461EC04255004B1D08 /* fullScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C309421EC04255004B1D08 /* fullScreen.png */; };
 		B3C309471EC04255004B1D08 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C309431EC04255004B1D08 /* pause.png */; };
+		B3C5E7791EC2C6E700105ECC /* IJKMediaControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C5E7751EC2C6E700105ECC /* IJKMediaControl.m */; };
+		B3C5E77D1EC2C71300105ECC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E77C1EC2C71300105ECC /* AudioToolbox.framework */; };
+		B3C5E77F1EC2C71C00105ECC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E77E1EC2C71C00105ECC /* AVFoundation.framework */; };
+		B3C5E7811EC2C72400105ECC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E7801EC2C72400105ECC /* CoreGraphics.framework */; };
+		B3C5E7831EC2C72D00105ECC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E7821EC2C72D00105ECC /* CoreMedia.framework */; };
+		B3C5E7851EC2C73500105ECC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E7841EC2C73500105ECC /* CoreVideo.framework */; };
+		B3C5E7871EC2C73D00105ECC /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E7861EC2C73D00105ECC /* libbz2.tbd */; };
+		B3C5E7891EC2C74500105ECC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E7881EC2C74500105ECC /* libz.tbd */; };
+		B3C5E78B1EC2C74C00105ECC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E78A1EC2C74C00105ECC /* MediaPlayer.framework */; };
+		B3C5E78D1EC2C75300105ECC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E78C1EC2C75300105ECC /* MobileCoreServices.framework */; };
+		B3C5E78F1EC2C75B00105ECC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E78E1EC2C75B00105ECC /* OpenGLES.framework */; };
+		B3C5E7911EC2C76200105ECC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E7901EC2C76200105ECC /* QuartzCore.framework */; };
+		B3C5E7931EC2C76D00105ECC /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E7921EC2C76D00105ECC /* VideoToolbox.framework */; };
+		B3C5E7951EC2C77200105ECC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E7941EC2C77200105ECC /* UIKit.framework */; };
+		B3C5E79A1EC2CA5600105ECC /* IJKMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C5E7981EC2CA5600105ECC /* IJKMoviePlayerViewController.m */; };
+		B3C5E79B1EC2CA5600105ECC /* IJKMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3C5E7991EC2CA5600105ECC /* IJKMoviePlayerViewController.xib */; };
+		B3C5E79F1EC2E30D00105ECC /* IJKDemoHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C5E79E1EC2E30D00105ECC /* IJKDemoHistory.m */; };
+		B3C5E7A31EC2E75E00105ECC /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C5E7A21EC2E75E00105ECC /* IJKMediaFramework.framework */; };
 		F9355CE15F5A5AF7703588F8 /* libPods-SunVideoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E46F00730AA0849D849EC9B /* libPods-SunVideoPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E46F00730AA0849D849EC9B /* libPods-SunVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunVideoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4F343DCAD5109CA86CF903 /* Pods-SunVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunVideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunVideoPlayer/Pods-SunVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		B3893AB91EC2F1FF00BEA315 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		B3C308411EAEFEED004B1D08 /* SunVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C308451EAEFEED004B1D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3C308471EAEFEED004B1D08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +68,28 @@
 		B3C309411EC04255004B1D08 /* smallScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallScreen.png; sourceTree = "<group>"; };
 		B3C309421EC04255004B1D08 /* fullScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullScreen.png; sourceTree = "<group>"; };
 		B3C309431EC04255004B1D08 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		B3C5E7731EC2C6E700105ECC /* IJKCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKCommon.h; sourceTree = "<group>"; };
+		B3C5E7741EC2C6E700105ECC /* IJKMediaControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMediaControl.h; sourceTree = "<group>"; };
+		B3C5E7751EC2C6E700105ECC /* IJKMediaControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMediaControl.m; sourceTree = "<group>"; };
+		B3C5E77C1EC2C71300105ECC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B3C5E77E1EC2C71C00105ECC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B3C5E7801EC2C72400105ECC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3C5E7821EC2C72D00105ECC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B3C5E7841EC2C73500105ECC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B3C5E7861EC2C73D00105ECC /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		B3C5E7881EC2C74500105ECC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B3C5E78A1EC2C74C00105ECC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B3C5E78C1EC2C75300105ECC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B3C5E78E1EC2C75B00105ECC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B3C5E7901EC2C76200105ECC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B3C5E7921EC2C76D00105ECC /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B3C5E7941EC2C77200105ECC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3C5E7971EC2CA5600105ECC /* IJKMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMoviePlayerViewController.h; sourceTree = "<group>"; };
+		B3C5E7981EC2CA5600105ECC /* IJKMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMoviePlayerViewController.m; sourceTree = "<group>"; };
+		B3C5E7991EC2CA5600105ECC /* IJKMoviePlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKMoviePlayerViewController.xib; sourceTree = "<group>"; };
+		B3C5E79D1EC2E30D00105ECC /* IJKDemoHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoHistory.h; sourceTree = "<group>"; };
+		B3C5E79E1EC2E30D00105ECC /* IJKDemoHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoHistory.m; sourceTree = "<group>"; };
+		B3C5E7A21EC2E75E00105ECC /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		DD352BC6461BCC4B11A78739 /* Pods-SunVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunVideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunVideoPlayer/Pods-SunVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +98,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3893ABA1EC2F1FF00BEA315 /* libstdc++.tbd in Frameworks */,
+				B3C5E7951EC2C77200105ECC /* UIKit.framework in Frameworks */,
+				B3C5E7931EC2C76D00105ECC /* VideoToolbox.framework in Frameworks */,
+				B3C5E7911EC2C76200105ECC /* QuartzCore.framework in Frameworks */,
+				B3C5E7A31EC2E75E00105ECC /* IJKMediaFramework.framework in Frameworks */,
+				B3C5E78F1EC2C75B00105ECC /* OpenGLES.framework in Frameworks */,
+				B3C5E78D1EC2C75300105ECC /* MobileCoreServices.framework in Frameworks */,
+				B3C5E78B1EC2C74C00105ECC /* MediaPlayer.framework in Frameworks */,
+				B3C5E7891EC2C74500105ECC /* libz.tbd in Frameworks */,
+				B3C5E7871EC2C73D00105ECC /* libbz2.tbd in Frameworks */,
+				B3C5E7851EC2C73500105ECC /* CoreVideo.framework in Frameworks */,
+				B3C5E7831EC2C72D00105ECC /* CoreMedia.framework in Frameworks */,
+				B3C5E7811EC2C72400105ECC /* CoreGraphics.framework in Frameworks */,
+				B3C5E77F1EC2C71C00105ECC /* AVFoundation.framework in Frameworks */,
+				B3C5E77D1EC2C71300105ECC /* AudioToolbox.framework in Frameworks */,
 				F9355CE15F5A5AF7703588F8 /* libPods-SunVideoPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +132,20 @@
 		8C190232C4AA9242F97FA5B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3893AB91EC2F1FF00BEA315 /* libstdc++.tbd */,
+				B3C5E7941EC2C77200105ECC /* UIKit.framework */,
+				B3C5E7921EC2C76D00105ECC /* VideoToolbox.framework */,
+				B3C5E7901EC2C76200105ECC /* QuartzCore.framework */,
+				B3C5E78E1EC2C75B00105ECC /* OpenGLES.framework */,
+				B3C5E78C1EC2C75300105ECC /* MobileCoreServices.framework */,
+				B3C5E78A1EC2C74C00105ECC /* MediaPlayer.framework */,
+				B3C5E7881EC2C74500105ECC /* libz.tbd */,
+				B3C5E7861EC2C73D00105ECC /* libbz2.tbd */,
+				B3C5E7841EC2C73500105ECC /* CoreVideo.framework */,
+				B3C5E7821EC2C72D00105ECC /* CoreMedia.framework */,
+				B3C5E7801EC2C72400105ECC /* CoreGraphics.framework */,
+				B3C5E77E1EC2C71C00105ECC /* AVFoundation.framework */,
+				B3C5E77C1EC2C71300105ECC /* AudioToolbox.framework */,
 				7E46F00730AA0849D849EC9B /* libPods-SunVideoPlayer.a */,
 			);
 			name = Frameworks;
@@ -101,6 +172,7 @@
 		B3C308431EAEFEED004B1D08 /* SunVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				B3C5E7701EC2BF9600105ECC /* IJKPlayer */,
 				B3C3085B1EAEFF1A004B1D08 /* SunVideoPlayer */,
 				B3C308471EAEFEED004B1D08 /* AppDelegate.h */,
 				B3C308481EAEFEED004B1D08 /* AppDelegate.m */,
@@ -148,6 +220,23 @@
 				B3C309431EC04255004B1D08 /* pause.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		B3C5E7701EC2BF9600105ECC /* IJKPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B3C5E7731EC2C6E700105ECC /* IJKCommon.h */,
+				B3C5E79D1EC2E30D00105ECC /* IJKDemoHistory.h */,
+				B3C5E79E1EC2E30D00105ECC /* IJKDemoHistory.m */,
+				B3C5E7741EC2C6E700105ECC /* IJKMediaControl.h */,
+				B3C5E7751EC2C6E700105ECC /* IJKMediaControl.m */,
+				B3C5E7971EC2CA5600105ECC /* IJKMoviePlayerViewController.h */,
+				B3C5E7981EC2CA5600105ECC /* IJKMoviePlayerViewController.m */,
+				B3C5E7991EC2CA5600105ECC /* IJKMoviePlayerViewController.xib */,
+				B3C5E7A21EC2E75E00105ECC /* IJKMediaFramework.framework */,
+			);
+			name = IJKPlayer;
+			path = IKDPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +307,7 @@
 				B3C309461EC04255004B1D08 /* fullScreen.png in Resources */,
 				B3C309451EC04255004B1D08 /* smallScreen.png in Resources */,
 				B3C308511EAEFEED004B1D08 /* Assets.xcassets in Resources */,
+				B3C5E79B1EC2CA5600105ECC /* IJKMoviePlayerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +368,13 @@
 			files = (
 				B3C3086C1EAF2B48004B1D08 /* SunSliderView.m in Sources */,
 				B3C3085E1EAEFF41004B1D08 /* SunVideoPlayerView.m in Sources */,
+				B3C5E79F1EC2E30D00105ECC /* IJKDemoHistory.m in Sources */,
 				B3C308671EAEFF99004B1D08 /* SunVideoViewController.m in Sources */,
+				B3C5E7791EC2C6E700105ECC /* IJKMediaControl.m in Sources */,
 				B3C3084C1EAEFEED004B1D08 /* ViewController.m in Sources */,
 				B3C308611EAEFF51004B1D08 /* SunVideoControlView.m in Sources */,
 				B3C308491EAEFEED004B1D08 /* AppDelegate.m in Sources */,
+				B3C5E79A1EC2CA5600105ECC /* IJKMoviePlayerViewController.m in Sources */,
 				B3C308461EAEFEED004B1D08 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +491,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6UZ64DUPRX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SunVideoPlayer/IKDPlayer",
+				);
 				GCC_PREFIX_HEADER = SunVideoPlayer/PrefixHeader.pch;
 				INFOPLIST_FILE = SunVideoPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -414,6 +511,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6UZ64DUPRX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SunVideoPlayer/IKDPlayer",
+				);
 				GCC_PREFIX_HEADER = SunVideoPlayer/PrefixHeader.pch;
 				INFOPLIST_FILE = SunVideoPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

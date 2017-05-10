@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SunVideoViewController.h"
+#import "IJKMoviePlayerViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -106,16 +107,20 @@
         if(isDirectory == YES){//是文件夹
             _currentRootPath = path;
         }else{//视频文件
-            NSString *type = [path pathExtension];
-            type = [type uppercaseString];
-            if([_playTypes containsObject:type]){
+//            NSString *type = [path pathExtension];
+//            type = [type uppercaseString];
+//            if([_playTypes containsObject:type]){
+            
+//                SunVideoViewController *vc = [[SunVideoViewController alloc] init];
+//                vc.urlStr = path;
+//                [self presentViewController:vc animated:YES completion:^{
+//                    
+//                }];
+//            }
+            
+            [IJKVideoViewController presentFromViewController:self withTitle:str URL:[NSURL fileURLWithPath:path] completion:^{
                 
-                SunVideoViewController *vc = [[SunVideoViewController alloc] init];
-                vc.urlStr = path;
-                [self presentViewController:vc animated:YES completion:^{
-                    
-                }];
-            }
+            }];
         }
     }
     NSArray *subPaths = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:_currentRootPath error:nil];

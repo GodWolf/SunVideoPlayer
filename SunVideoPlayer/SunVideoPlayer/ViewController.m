@@ -110,7 +110,7 @@
 //            NSString *type = [path pathExtension];
 //            type = [type uppercaseString];
 //            if([_playTypes containsObject:type]){
-            
+//            
 //                SunVideoViewController *vc = [[SunVideoViewController alloc] init];
 //                vc.urlStr = path;
 //                [self presentViewController:vc animated:YES completion:^{

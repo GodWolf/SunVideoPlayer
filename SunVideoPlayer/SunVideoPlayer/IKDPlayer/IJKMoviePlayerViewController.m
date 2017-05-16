@@ -81,6 +81,7 @@
     self.player.view.frame = self.view.bounds;
     self.player.scalingMode = IJKMPMovieScalingModeAspectFit;
     self.player.shouldAutoplay = YES;
+    self.player.playbackRate = 2.0;
 
     self.view.autoresizesSubviews = YES;
     [self.view addSubview:self.player.view];

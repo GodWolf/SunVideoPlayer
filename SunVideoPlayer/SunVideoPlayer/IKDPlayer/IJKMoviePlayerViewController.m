@@ -81,7 +81,6 @@
     self.player.view.frame = self.view.bounds;
     self.player.scalingMode = IJKMPMovieScalingModeAspectFit;
     self.player.shouldAutoplay = YES;
-    self.player.playbackRate = 2.0;
 
     self.view.autoresizesSubviews = YES;
     [self.view addSubview:self.player.view];
@@ -135,6 +134,45 @@
 - (IBAction)onClickDone:(id)sender
 {
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+- (IBAction)changeSpeedAction:(UIButton *)sender {
+    
+    switch (sender.tag) {
+        case 200:{
+            [sender setTitle:@"1.2倍" forState:(UIControlStateNormal)];
+            self.player.playbackRate = 1.2;
+            sender.tag = 201;
+            break;
+        }
+        case 201:{
+            [sender setTitle:@"1.4倍" forState:(UIControlStateNormal)];
+            self.player.playbackRate = 1.4;
+            sender.tag = 202;
+            break;
+        }
+        case 202:{
+            [sender setTitle:@"1.6倍" forState:(UIControlStateNormal)];
+            self.player.playbackRate = 1.6;
+            sender.tag = 203;
+            break;
+        }
+        case 203:{
+            [sender setTitle:@"1.8倍" forState:(UIControlStateNormal)];
+            self.player.playbackRate = 1.8;
+            sender.tag = 204;
+            break;
+        }
+        case 204:{
+            [sender setTitle:@"1.0倍" forState:(UIControlStateNormal)];
+            self.player.playbackRate = 1.0;
+            sender.tag = 200;
+            break;
+        }
+            
+        default:
+            break;
+    }
+    
 }
 
 - (IBAction)onClickHUD:(UIBarButtonItem *)sender

@@ -138,6 +138,26 @@
     
 }
 
+- (nullable NSArray<UITableViewRowAction *> *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSString *str = _files[indexPath.row];
+    if([str isEqualToString:@"..."] == NO){
+        
+        NSString *path = [_currentRootPath stringByAppendingPathComponent:str];
+        
+        __weak typeof(self) weakSelf = self;
+        
+        UITableViewRowAction *delectAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive title:@"删除" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
+            
+            [[NSFileManager defaultManager] removeItemAtPath:path error:nil];
+            [weakSelf.files removeObjectAtIndex:indexPath.row];
+            [weakSelf.tableView reloadData];
+        }];
+        return @[delectAction];
+    }
+    return nil;
+}
+
 #pragma mark - getter
 - (UITableView *)tableView {
     
